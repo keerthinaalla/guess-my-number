@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="U-XA-Compatible" content="IE=edge">
+        <title>Guess my Number</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">        
+<link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+       
+        <section class="full-wrapper">
+
+            <!--header-section starts here-->
+            <section class="header-section">
+                <div class="left">
+                    <button class="btn btn-again">Again!</button>
+                </div>
+                <div class="right">
+                    <p>(Between 1 and 20)</p>
+                </div>
+
+            </section>
+            <!--header-section ends here-->
+            <!--guess-section starts here-->
+            <section class="guess-section">
+                <div class="guess-text">
+                    <p class="text">Guess My Number!</p>
+                </div>
+                <div class="box-line">
+                    <div class="line1">
+                    </div>
+                    <div class="guess-box">
+                        <p class="box">?</p>
+
+                    </div>
+                    <div class="line2">
+
+                    </div>
+                </div> 
+            </section>
+            <!--guess-section ends here-->
+            <!--main-section starts here-->
+            <section class="main-section">
+                <div class="main-left">
+                    <div class="input-box">
+                        <input type="number" class="input">
+                    </div>
+                    <div class="left-check">
+                        <button class="btn btn-check">check!</button>
+                    </div>
+
+                </div>
+                <div class="main-right">
+                    <p class="message">start guessing...</p>
+                    <p class="score">✔ Score:  <span class="score-num">20</span></p>
+                    <p class="highscore">🚩 Highscore: <span class="highscore-num">0</span></p>
+
+                </div>
+            </section>
+
+        </section>
+     
+
+        <script src="script.js"></script>
+    </body>
+</html>

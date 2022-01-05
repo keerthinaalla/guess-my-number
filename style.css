@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+body{
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+}
+.full-wrapper{
+    max-width: 1200px;
+    height: 100vh;
+   /* background-color:yellowgreen;*/
+    margin: 0 auto;
+}
+.header-section{
+    width: 100%;
+    padding: 3rem 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+ 
+
+}
+.header-section .left{
+    width: 50%;
+   /* background-color: violet;*/
+  
+}
+.btn{
+    width: 12rem;
+    height: 4rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+}
+.header-section .right{
+    width: 50%;
+  /* background-color: blue;*/
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  
+}
+.guess-section{
+    width: 100%;
+    padding: 3rem 7rem;
+
+}
+.guess-text{
+    width: 100%;
+   
+   /* background-color: red;*/
+
+}
+.guess-text .text{
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.box-line{
+    width: 100%;
+    margin-top:3rem;
+    /*background-color: cadetblue;*/
+    display: flex;
+    align-items: center;
+
+}
+.line1{
+  
+    width: 50%;
+   
+    border-top:5px solid #fff;
+}
+.guess-box{
+   
+   /* width: 10%;*/
+}
+.guess-box .box{
+    width: 8rem;
+    height: 8rem;
+    font-size: 3rem;
+    /*border:2px solid #000;*/
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.line2{
+  
+    width: 50%;
+   
+    border-top:5px solid #fff;
+
+}
+.main-section{
+    width: 100%;
+    padding: 3rem 7rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-left{
+    width: 60%;
+
+}
+.input{
+    width: 19rem;
+    height: 7rem;
+    background-color: transparent;
+    border:2px solid #fff;
+    border-radius: 3px;
+    margin-bottom:2rem;
+    color:#fff;
+    font-size: 3rem;
+    text-align: center;
+    outline: none;
+}
+.left-check{
+    margin-left: 3rem;
+    
+}
+
+
+.main-right{
+    width:40%;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-family: 'Press Start 2P', cursive;
+  
+  
+}
+.message{
+    margin-bottom: 4rem;
+}
